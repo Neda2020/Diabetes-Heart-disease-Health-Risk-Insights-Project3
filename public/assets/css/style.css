@@ -1,0 +1,72 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f8fc;
+  }
+
+  h1 {
+    color: #0d6efd;
+  }
+
+  .btn-primary {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+
+  .btn-primary:hover {
+    background-color: #004db3;
+    transform: scale(1.07);
+  }
+
+  .card {
+    border: none;
+    /* border-radius: 10px; */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    padding: 20px; 
+    background-color: #fff; 
+  }
+
+  .card > div {
+    overflow: hidden;
+  }
+  
+  .card-primary {
+    background-color: #e9f2ff;
+  }
+
+  .card-header {
+    background-color: #0d6efd;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+
+  .card-body {
+    padding: 20px;
+    background-color: #e9f2ff;
+  }
+
+  /* #bar, #scatter, #js-chart {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    margin: 20px;
+  } */
+
+  select {
+    border: 1px solid #0d6efd;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: #0d6efd;
+  }
+
+  .header-container {
+    background-color: #e9f2ff;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); 
+  }
+
+  p {
+    color: #004db3;
+  }
